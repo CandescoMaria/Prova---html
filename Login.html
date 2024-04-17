@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+
+<style>
+
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+
+
+.top {
+    background-color: #ecb5ec;
+    color: white;
+    font-size: 220%;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    color: #ecb5ec;
+    display: flex;
+    justify-content: start;
+    margin-top: 3%;
+    margin-left: 14%;
+    font-size: 190%;
+}
+
+.itens {
+    font-size: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 70%;
+    margin-top: 1%;
+}
+
+input {
+padding: 3%;
+padding-right: 20%;
+font-size: large;
+}
+
+label {
+    font-size: 150%;
+}
+
+input, label {
+    display: flex;
+    align-items: center;
+}
+
+#email {
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+#senha {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 20%;
+}
+
+
+button {
+    color: white;
+    background-color: #ecb5ec;
+    border-radius: 5%;
+    border: 1px solid black;
+    background-color: none;
+    padding: 1%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    left: 0%;
+    border: none;
+    cursor: pointer;
+    font-size: 150%;
+    margin: 4%;
+
+}
+
+.acessar, .cadastro{
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.esqueci {
+    font-size: 120%;
+display: flex;
+margin-top: -10%;
+margin-left: 14.5%
+}
+
+
+.footer {
+    color: white;
+    font-size: 150%;
+    background-color: #ecb5ec;
+    margin-top: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.acessar:hover, .cadastro:hover {
+    background-color: #f8c9f8;
+}
+
+
+</style>
+
+ 
+</head>
+
+<body>
+    
+<div class="container">
+<div class="top">
+<p><b>Doce Encanto</b></p>
+</div>
+<div class="login">
+<h1>Login</h1>
+</div>
+<div class="itens">
+<label for="email" id="senha">E-mail:</label>
+<input type="text" placeholder="Digite seu Email" id="email" required>
+<label for="senha" id="senha">Senha:</label>
+<input type="password" name="senha" id="senha" placeholder="Digite sua Senha" required>
+</div>
+<div class="button">
+<button class="acessar" ><a href="preferencia.html"></a><b>Acessar</b></button>
+<button class="cadastro"><b>Cadastro</b></button>
+</div>
+<div class="esqueci">
+    <a href="#">Esqueci a Senha</a>
+</div>
+<div class="footer">
+<p><b>Sobre Nós</b></p>
+<p><b>Copyrught@2024</b></p>
+<p><b>Contato</b></p>
+<p><b>Suporte</b></p>
+</div>
+
+
+
+
+</body>
+</html>
